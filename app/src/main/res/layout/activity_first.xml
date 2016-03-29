@@ -1,0 +1,76 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.edmododemo.FirstActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:id="@+id/toolbar_first"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_below="@+id/toolbar"--><!--android:background="@drawable/education_linear"--><!--android:orientation="vertical">--><!--<LinearLayout--><!--android:id="@+id/linear_layout_up"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_weight="1"--><!--android:orientation="vertical">--><!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/education_linear"
+        android:alpha=".8"/>--><!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_below="@id/toolbar_first"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/launcher">
+
+        <LinearLayout
+            android:layout_below="@id/toolbar_first"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:orientation="vertical"><!--  <View
+            android:id="@+id/divider_first"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/shadow" />-->
+            <!--<ImageView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/launcher" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="12dp">
+<!--
+            <Button
+                style="@style/EdmodoButtonGreen"
+                android:id="@+id/button_create_account"
+                android:text="Create Free Account"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white" />-->
+
+            <Button
+                style="@style/EdmodoButtonGreen"
+                android:id="@+id/login_explore"
+                android:text="Login and explore"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--</LinearLayout>--><!-- <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="300dp"
+         android:id="@+id/imageView2"
+         android:layout_below="@+id/toolbar"
+         android:layout_centerHorizontal="true"
+         android:src="@drawable/blue" />-->
+</RelativeLayout>

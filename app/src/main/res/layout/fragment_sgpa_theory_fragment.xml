@@ -1,0 +1,237 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.vishank.xampp.sgpa_theory_fragment"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject"
+            android:layout_weight=".5"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expected Grade"
+            android:layout_weight=".5"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:layout_margin="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="OOSD"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginRight="60dp"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:layout_marginRight="40dp"
+                    android:gravity="center"
+                    android:id="@+id/edittext_1"
+                    android:hint="A"
+                    android:drawableRight="@mipmap/drop_down"
+
+                   />
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="CD"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginRight="60dp"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:layout_marginRight="40dp"
+                    android:gravity="center"
+                    android:id="@+id/edittext_2"
+                    android:hint="A"
+                    android:drawableRight="@mipmap/drop_down"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="HPCA"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginRight="60dp"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:layout_marginRight="40dp"
+                    android:gravity="center"
+                    android:id="@+id/edittext_3"
+                    android:hint="A"
+                    android:drawableRight="@mipmap/drop_down"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="CG"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginRight="60dp"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:layout_marginRight="40dp"
+                    android:gravity="center"
+                    android:id="@+id/edittext_4"
+                    android:hint="A"
+                    android:drawableRight="@mipmap/drop_down"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="ECO"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginRight="60dp"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:layout_marginRight="40dp"
+                    android:gravity="center"
+                    android:id="@+id/edittext_5"
+                    android:hint="A"
+                    android:drawableRight="@mipmap/drop_down"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="OOSD"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginRight="60dp"
+                    android:textSize="15dp"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:layout_marginRight="40dp"
+                    android:gravity="center"
+                    android:id="@+id/edittext_6"
+                    android:hint="A"
+                    android:drawableRight="@mipmap/drop_down"
+
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#4CAF50">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@mipmap/success"
+            android:layout_gravity="center"
+            android:tint="#fff"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Looks like you want to mark your attendance. \nPlease enter Passcode below :"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/passcode_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:hint="Enter Passcode "
+            android:padding="16dp"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:id="@+id/layout_things"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+        <TextView
+            android:id="@+id/error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="An error occured while submitting your attendance. Please check your passcode or location and try again."
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:padding="5dp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/attempts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attempts left : "
+            android:padding="5dp"
+            android:textColor="#000"
+            />
+
+            <TextView
+                android:id="@+id/location_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Location : 32.22 , 22.32"
+                android:textColor="#000"
+                android:padding="5dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

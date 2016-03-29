@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vishank.xampp.OptionsActivity"
+    android:background="#fff">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <View
+        android:id="@+id/divider_login"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/toolbar_options"
+        android:background="@drawable/shadow" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@id/toolbar_options">
+
+    <Button
+        style="@style/EdmodoButtonGreen"
+        android:text="View Timetable"
+        android:textAllCaps="false"
+        android:id="@+id/view_timetable"/>
+
+    <Button
+        style="@style/EdmodoButtonGreen"
+        android:text="Calculate SGPA"
+        android:textAllCaps="false"
+        android:id="@+id/cal_sgpa"/>
+
+    <Button
+        style="@style/EdmodoButtonGreen"
+        android:text="Mark Attendance"
+        android:textAllCaps="false"
+        android:id="@+id/mark_attnd"/>
+
+    </LinearLayout>
+</RelativeLayout>

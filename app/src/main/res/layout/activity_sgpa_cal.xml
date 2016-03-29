@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.vishank.xampp.sgpaCalActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_sgpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#dedede">
+
+
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout_sgpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorPrimaryDark"
+        app:tabIndicatorHeight="5dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="#ffffff"
+        app:tabTextAppearance="@style/TextAppearance.Design.Tab"
+        app:tabTextColor="#ffffff"
+        android:layout_gravity="center_horizontal"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager_sgpa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+    </LinearLayout>
+
+
+</LinearLayout>
